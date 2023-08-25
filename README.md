@@ -17,5 +17,5 @@ $ composer require alexander-balabas/otus-composer
 ```php
 <?php
 $debugger = new Debugger();
-$debugger->debug();
+$debugger->debug(['name'=>'Alex']);
 ```
